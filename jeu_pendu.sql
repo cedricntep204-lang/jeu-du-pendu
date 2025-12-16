@@ -31,7 +31,7 @@ CREATE TABLE jeux (
     user_id INT NOT NULL,
     mots_id INT NOT NULL,
     tentatives INT DEFAULT 0,
-    active TINYINT(1) DEFAULT 0,
+    victory TINYINT(1) DEFAULT 0,
     points INT DEFAULT 0,
     created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
 
