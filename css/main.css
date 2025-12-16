@@ -1,0 +1,87 @@
+body {
+    background-color: #fffefe; 
+    font-family: sans-serif; 
+    color: rgb(0, 0, 0); 
+    margin: 0; 
+    padding: 0;
+}
+
+.titre  {
+    width: fit-content; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titre h1 {
+    font-size: 5em; 
+    color: rgb(0, 0, 0); 
+    margin-top: 50px; 
+    margin-bottom: 0; 
+    text-shadow: 4px 4px 6px #d9d4d4;
+}
+
+.Slogan h2 {
+    width: fit-content; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+.menu-button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.1s; /* Animation */
+    background-color: #007bff; 
+    color: white;
+    box-shadow: 0 4px #0056b3; 
+}
+
+.menu-button:hover {
+    background-color: #0056b3;
+}
+
+.menu-button:active {
+    box-shadow: 0 1px #0056b3;
+    transform: translateY(3px);/* Décalage vers le bas */
+}
+
+.image-corde {
+    position: fixed;
+    top: 10px;    
+    right: 5px;  
+    z-index: 100;/*au-dessus du contenu si nécessaire (z-index) */
+    max-width: 500px; 
+}
+
+.image-corde img {
+    width: 100%;
+    height: auto; 
+    display: block; 
+}
+
+.image-homme-idee {
+    position: fixed;
+    top: 200px;   
+    left: 80px;  
+    z-index: 100;
+    max-width: 230px;  
+}
+
+.image-homme-idee img {
+    width: 100%;
+    height: auto; 
+    display: block; 
+}
