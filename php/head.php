@@ -8,9 +8,7 @@
     
     <link rel="stylesheet" href="/jeu-du-pendu/css/header.css">
     <link rel="stylesheet" href="/jeu-du-pendu/css/main.css">
-    <link rel="stylesheet" href="/jeu-du-pendu/css/footer.css">
-    <link rel="stylesheet" href="/jeu-du-pendu/css/reset.css">
-
+    
 </head>
 
 <body>
@@ -29,5 +27,22 @@
         <button class="menu-button" id="Voir-le-classement">Voir le classement</button>
         <button class="menu-button" id="Règles du jeu">Règles du jeu</button>
     </div>
+
+    <script>
+        // Redirection vers register.php
+        document.getElementById('Nouvelle-partie').addEventListener('click', function() {
+            window.location.href = '/jeu-du-pendu/php/register.php';
+        });
+
+        // Redirection vers classements.php
+        document.getElementById('Voir-le-classement').addEventListener('click', function() {
+            window.location.href = '/jeu-du-pendu/php/classements.php';
+        });
+
+        // Redirection vers rules.php
+        document.getElementById('Règles du jeu').addEventListener('click', function() {
+            window.location.href = '/jeu-du-pendu/php/rules.php';
+        });
+    </script>
     
     </html>
